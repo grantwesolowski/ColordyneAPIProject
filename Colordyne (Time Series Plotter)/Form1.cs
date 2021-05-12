@@ -25,9 +25,9 @@ namespace Colordyne__Time_Series_Plotter_
 {
     public partial class Form1 : Form
     {
-        private readonly string apiKey = "QFE382XU44L33V84";    //? Maybe store in json or text file with encrption/lock?
+        private readonly string apiKey = "QFE382XU44L33V84";
 
-        private readonly string apiKeyCrypto = "e9e6052c-51fc-4f8f-8cb6-bfe7753697e8";    //? Maybe store in json or text file with encrption/lock?
+        private readonly string apiKeyCrypto = "e9e6052c-51fc-4f8f-8cb6-bfe7753697e8";
 
         static readonly HttpClient client = new HttpClient();
 
